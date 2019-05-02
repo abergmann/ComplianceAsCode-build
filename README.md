@@ -1,2 +1,14 @@
 # ComplianceAsCode-build
-Docker container to build SLE12 ComplianceAsCode profiles.
+This Docker container can be used to build SLE12 ComplianceAsCode profiles.
+
+To build the container:
+```
+#> docker build -t ComplianceAsCode-build .
+```
+
+To run the container:
+```
+#> mkdir out
+#> docker run -it --rm -v $PWD/out:/home/build/out ComplianceAsCode-build
+```
+
