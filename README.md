@@ -9,6 +9,6 @@ To build the container:
 To run the container:
 ```
 #> mkdir out
-#> docker run -it --rm -v $PWD/out:/home/build/out complianceascode-build
+#> docker run -it --rm -v $PWD/build:/home/build/out complianceascode-build
 ```
 
