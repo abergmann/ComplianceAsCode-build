@@ -1,7 +1,7 @@
 # Docker container to build ComplianceAsCode/content.
-FROM opensuse/leap:15.0 AS build
+FROM opensuse/leap:15.1 AS build
 USER root
-MAINTAINER Alex
+MAINTAINER Alexander Bergmann
 
 # Add essential packages
 RUN zypper -n in git cmake openscap-utils python3-PyYAML python3-Jinja2 libxslt-tools libxml2-tools expat
