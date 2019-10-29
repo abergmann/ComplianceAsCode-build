@@ -9,6 +9,7 @@ To build the container:
 To run the container:
 ```
 #> mkdir build
+#> chmod 777 build
 #> docker run -it --rm -v $PWD/build:/home/build/out complianceascode-build
 ```
 
